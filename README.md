@@ -20,10 +20,11 @@ Follow the steps below to get nextcloud running in docker on localhost
 
 - Configure the .env files with the creds for your postgres db and admin user
 - Run `docker-compose up` then connect to your postgres instance
-- Create your db as per `POSTGRES_DB`
+- Create your user as per `POSTGRES_USER` and `POSTGRES_PASSWORD`
 - Restart your nextcloud container
 - Run `docker-compose restart`
 - Open nextcloud at `localhost:8080` and login with `NEXTCLOUD_ADMIN_USER` and `NEXTCLOUD_ADMIN_PASSWORD`
+- Nextcloud should prompt you to login and setup all the db stuff for you 
 
 Run on your server without shell:
 
