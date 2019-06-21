@@ -9,13 +9,10 @@ This repository contains a Docker compose file which can be used to easily creat
 
 ## Architecture
 
-Here are the various containers involved.
+Docker containers:
 
 - `nextcloud`: the Nextcloud server
 - `postgres`: the database used by Nextcloud to store its configuration
-- `reverse-proxy`: a nginx reverse proxy in front of Nextcloud and doing SSL termination
-- `letsencrypt-companion`: an utility container which issues and renews SSL certificates
-- `backups`: an utility container which regularly backups the Nextcloud files and database
 
 ## Usage
 
